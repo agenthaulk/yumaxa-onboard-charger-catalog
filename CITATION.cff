@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this dataset, cite the dataset page and the source page given for each value."
+type: dataset
+title: "Yumaxa on-board charger catalogue"
+abstract: "Four TLCZ on-board sealed battery charger series (Tianli New Energy brand) and their 24 printed model rows, transcribed from the product tables on the manufacturer's website. Values pending confirmation are left out; where the Chinese and English pages differ, the Chinese value is given. Products and data source: Anhui Tianli New Energy Co., Ltd., the manufacturer. License: not yet stated by the manufacturer; data as published on its website."
+authors:
+  - name: "Yumaxa (yumaxa.com)"
+    website: "https://yumaxa.com/"
+version: "5cd86c444e61"
+url: "https://yumaxa.com/data/"
+repository-code: "https://github.com/agenthaulk/yumaxa-onboard-charger-catalog"
+keywords:
+  - on-board charger
+  - battery charger
+  - electric vehicle
+  - dataset

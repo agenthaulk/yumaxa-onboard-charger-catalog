@@ -1,0 +1,147 @@
+{
+ "name": "yumaxa-onboard-charger-catalog",
+ "title": "Yumaxa on-board charger catalogue",
+ "description": "Four TLCZ on-board sealed battery charger series (Tianli New Energy brand) and their 24 printed model rows, transcribed from the product tables on the manufacturer's website. Values pending confirmation are left out; where the Chinese and English pages differ, the Chinese value is given. License: not yet stated by the manufacturer; data as published on its website.",
+ "homepage": "https://yumaxa.com/data/",
+ "version": "5cd86c444e61",
+ "contributors": [
+  {
+   "title": "Yumaxa (yumaxa.com)",
+   "path": "https://yumaxa.com/",
+   "role": "author"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Anhui Tianli New Energy Co., Ltd. — product page of TLCZ-1.4KW",
+   "path": "http://m.ahtlxny.com/display/604102.html"
+  },
+  {
+   "title": "Anhui Tianli New Energy Co., Ltd. — product page of TLCZ-2.2KW",
+   "path": "http://m.ahtlxny.com/display/604106.html"
+  },
+  {
+   "title": "Anhui Tianli New Energy Co., Ltd. — product page of TLCZ-3.3KW",
+   "path": "http://m.ahtlxny.com/display/604112.html"
+  },
+  {
+   "title": "Anhui Tianli New Energy Co., Ltd. — product page of TLCZ-6.6KW",
+   "path": "http://m.ahtlxny.com/display/605389.html"
+  }
+ ],
+ "resources": [
+  {
+   "name": "catalog-long",
+   "path": "yumaxa-onboard-charger-catalog.csv",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "encoding": "utf-8",
+   "schema": {
+    "fields": [
+     {
+      "name": "schema_version",
+      "type": "string"
+     },
+     {
+      "name": "dataset_version",
+      "type": "string"
+     },
+     {
+      "name": "scope",
+      "type": "string"
+     },
+     {
+      "name": "series_slug",
+      "type": "string"
+     },
+     {
+      "name": "series_name",
+      "type": "string"
+     },
+     {
+      "name": "series_url",
+      "type": "string"
+     },
+     {
+      "name": "model_row_id",
+      "type": "string"
+     },
+     {
+      "name": "model_codes",
+      "type": "string"
+     },
+     {
+      "name": "model_label",
+      "type": "string"
+     },
+     {
+      "name": "model_url",
+      "type": "string"
+     },
+     {
+      "name": "attribute",
+      "type": "string"
+     },
+     {
+      "name": "value_type",
+      "type": "string"
+     },
+     {
+      "name": "value",
+      "type": "string"
+     },
+     {
+      "name": "min_value",
+      "type": "string"
+     },
+     {
+      "name": "max_value",
+      "type": "string"
+     },
+     {
+      "name": "comparator",
+      "type": "string"
+     },
+     {
+      "name": "unit_code",
+      "type": "string"
+     },
+     {
+      "name": "unit_text",
+      "type": "string"
+     },
+     {
+      "name": "status",
+      "type": "string"
+     },
+     {
+      "name": "source_url",
+      "type": "string"
+     },
+     {
+      "name": "source_retrieved_on",
+      "type": "string"
+     },
+     {
+      "name": "value_scope",
+      "type": "string"
+     },
+     {
+      "name": "assignment_note",
+      "type": "string"
+     },
+     {
+      "name": "withheld_fields",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "catalog",
+   "path": "yumaxa-onboard-charger-catalog.json",
+   "format": "json",
+   "mediatype": "application/json"
+  }
+ ]
+}

@@ -1,0 +1,1620 @@
+{
+ "name": "Yumaxa on-board charger catalogue",
+ "description": "Four TLCZ on-board sealed battery charger series (Tianli New Energy brand) and their 24 printed model rows, transcribed from the product tables on the manufacturer's website. Values pending confirmation are left out; where the Chinese and English pages differ, the Chinese value is given.",
+ "version": "5cd86c444e61",
+ "landing_page": "https://yumaxa.com/data/",
+ "downloads": {
+  "json": "https://yumaxa.com/data/yumaxa-onboard-charger-catalog.json",
+  "csv": "https://yumaxa.com/data/yumaxa-onboard-charger-catalog.csv",
+  "csv_sha256": "b00c0f0a4b2b2afa23ebaa7b6debabe43ea3957d687a9b3cf4a4c098ce8060d0",
+  "csv_records": 95
+ },
+ "website": {
+  "name": "Yumaxa",
+  "url": "https://yumaxa.com/"
+ },
+ "product_brand": "Tianli New Energy",
+ "manufacturer": {
+  "name": "Anhui Tianli New Energy Co., Ltd.",
+  "role": "Manufacturer of the products and source of the data (company information as published on its website)",
+  "source_url": "http://m.en.ahtlxny.com/info/101373.html"
+ },
+ "license_status": "License: not yet stated by the manufacturer; data as published on its website.",
+ "notes": [
+  "11 values pending confirmation by the manufacturer are left out (9 series specifications, 2 model values); the series pages show them as printed.",
+  "The kW figure in a series name is a series label, not a rated output power.",
+  "A row with two model codes is one printed row; its values are not assigned to either code separately."
+ ],
+ "counts": {
+  "series": 4,
+  "model_rows": 24,
+  "model_values": 70,
+  "series_specifications": 25,
+  "withheld_model_values": 2,
+  "withheld_series_specifications": 9
+ },
+ "schema_version": "1.0",
+ "source_retrieved_on": "2026-10-28",
+ "unit_codes": {
+  "V": "VLT",
+  "A": "AMP",
+  "kg": "KGM",
+  "°C": "CEL"
+ },
+ "value_policy": "Listed values and, where the Chinese and English pages differ, the Chinese value; values pending confirmation are left out and named under withheld_specs / withheld_fields.",
+ "series": [
+  {
+   "slug": "tlcz-1-4kw",
+   "name": "TLCZ-1.4KW",
+   "series_label_kw": 1.4,
+   "series_label_note": "Series name label only; not a rated output power.",
+   "series_url": "https://yumaxa.com/products/on-board-chargers/tlcz-1-4kw/",
+   "housing_variants": [
+    {
+     "name": "TLCZ-1.4KW",
+     "note": "shown without a carrying handle",
+     "source_url": "http://m.ahtlxny.com/display/604102.html"
+    },
+    {
+     "name": "TLCZ-1.4KW(BX)",
+     "note": "shown with a carrying handle",
+     "source_url": "http://m.ahtlxny.com/display/604114.html"
+    }
+   ],
+   "source_urls": [
+    "http://m.ahtlxny.com/display/604102.html",
+    "http://m.en.ahtlxny.com/display/615247.html",
+    "http://m.ahtlxny.com/display/604114.html",
+    "http://m.en.ahtlxny.com/display/615248.html"
+   ],
+   "source_image_urls": [
+    "http://ahtlxny.com/u/1951f0a3-efe0-4fe8-b01f-7ad9c83f0477/image/6385639724993316353824.png",
+    "http://en.ahtlxny.com/u/ac12f24e-061d-4e85-803f-9a2fe6b9a1c7/image/6385784411380982075830.png"
+   ],
+   "specs": [
+    {
+     "attribute": "power_factor",
+     "label": "Power factor",
+     "value_type": "number",
+     "value": 0.99,
+     "min_value": null,
+     "max_value": null,
+     "comparator": "≥",
+     "unit_text": "",
+     "unit_code": "",
+     "display": "≥0.99",
+     "status": "listed",
+     "source_url": "http://m.ahtlxny.com/display/604102.html"
+    },
+    {
+     "attribute": "efficiency",
+     "label": "Efficiency",
+     "value_type": "number",
+     "value": 0.93,
+     "min_value": null,
+     "max_value": null,
+     "comparator": "≥",
+     "unit_text": "",
+     "unit_code": "",
+     "display": "≥0.93",
+     "status": "listed",
+     "source_url": "http://m.ahtlxny.com/display/604102.html"
+    },
+    {
+     "attribute": "protection_level",
+     "label": "Protection level",
+     "value_type": "text",
+     "value": "IP67",
+     "min_value": null,
+     "max_value": null,
+     "comparator": "",
+     "unit_text": "",
+     "unit_code": "",
+     "display": "IP67",
+     "status": "listed",
+     "source_url": "http://m.ahtlxny.com/display/604102.html"
+    },
+    {
+     "attribute": "net_weight",
+     "label": "Net weight",
+     "value_type": "number",
+     "value": 1.4,
+     "min_value": null,
+     "max_value": null,
+     "comparator": "",
+     "unit_text": "kg",
+     "unit_code": "KGM",
+     "display": "1.4 kg",
+     "status": "listed",
+     "source_url": "http://m.ahtlxny.com/display/604102.html"
+    },
+    {
+     "attribute": "working_temperature",
+     "label": "Working temperature",
+     "value_type": "range",
+     "value": null,
+     "min_value": -30,
+     "max_value": 65,
+     "comparator": "",
+     "unit_text": "°C",
+     "unit_code": "CEL",
+     "display": "−30–65 °C",
+     "status": "listed",
+     "source_url": "http://m.ahtlxny.com/display/604102.html"
+    },
+    {
+     "attribute": "storage_temperature",
+     "label": "Storage temperature",
+     "value_type": "range",
+     "value": null,
+     "min_value": -40,
+     "max_value": 95,
+     "comparator": "",
+     "unit_text": "°C",
+     "unit_code": "CEL",
+     "display": "−40–95 °C",
+     "status": "listed",
+     "source_url": "http://m.ahtlxny.com/display/604102.html"
+    }
+   ],
+   "withheld_specs": [
+    {
+     "attribute": "ac_input_voltage",
+     "label": "AC input voltage",
+     "reason": "pending_confirmation"
+    },
+    {
+     "attribute": "dimensions",
+     "label": "Dimensions",
+     "reason": "pending_confirmation"
+    }
+   ],
+   "models": [
+    {
+     "model_row_id": "tlcz-1-4kw--tlcz-1230",
+     "model_codes": [
+      "TLCZ-1230"
+     ],
+     "model_label": "TLCZ-1230",
+     "model_url": "https://yumaxa.com/products/on-board-chargers/tlcz-1-4kw/#tlcz-1230",
+     "values": [
+      {
+       "attribute": "battery_pack_rated_voltage",
+       "label": "Battery pack rated voltage",
+       "value_type": "number",
+       "value": 12,
+       "unit_text": "V",
+       "unit_code": "VLT",
+       "status": "listed",
+       "source_url": "http://m.ahtlxny.com/display/604102.html"
+      },
+      {
+       "attribute": "max_output_voltage",
+       "label": "Maximum output voltage",
+       "value_type": "number",
+       "value": 17,
+       "unit_text": "V",
+       "unit_code": "VLT",
+       "status": "listed",
+       "source_url": "http://m.ahtlxny.com/display/604102.html"
+      },
+      {
+       "attribute": "max_output_current",
+       "label": "Maximum output current",
+       "value_type": "number",
+       "value": 30,
+       "unit_text": "A",
+       "unit_code": "AMP",
+       "status": "listed",
+       "source_url": "http://m.ahtlxny.com/display/604102.html"
+      }
+     ],
+     "withheld_fields": [],
+     "value_scope": "printed_model_row",
+     "assignment_note": "",
+     "source_url": "http://m.ahtlxny.com/display/604102.html"
+    },
+    {
+     "model_row_id": "tlcz-1-4kw--tlcz-2430",
+     "model_codes": [
+      "TLCZ-2430"
+     ],
+     "model_label": "TLCZ-2430",
+     "model_url": "https://yumaxa.com/products/on-board-chargers/tlcz-1-4kw/#tlcz-2430",
+     "values": [
+      {
+       "attribute": "battery_pack_rated_voltage",
+       "label": "Battery pack rated voltage",
+       "value_type": "number",
+       "value": 24,
+       "unit_text": "V",
+       "unit_code": "VLT",
+       "status": "listed",
+       "source_url": "http://m.ahtlxny.com/display/604102.html"
+      },
+      {
+       "attribute": "max_output_voltage",
+       "label": "Maximum output voltage",
+       "value_type": "number",
+       "value": 33,
+       "unit_text": "V",
+       "unit_code": "VLT",
+       "status": "listed",
+       "source_url": "http://m.ahtlxny.com/display/604102.html"
+      },
+      {
+       "attribute": "max_output_current",
+       "label": "Maximum output current",
+       "value_type": "number",
+       "value": 30,
+       "unit_text": "A",
+       "unit_code": "AMP",
+       "status": "listed",
+       "source_url": "http://m.ahtlxny.com/display/604102.html"
+      }
+     ],
+     "withheld_fields": [],
+     "value_scope": "printed_model_row",
+     "assignment_note": "",
+     "source_url": "http://m.ahtlxny.com/display/604102.html"
+    },
+    {
+     "model_row_id": "tlcz-1-4kw--tlcz-3625",
+     "model_codes": [
+      "TLCZ-3625"
+     ],
+     "model_label": "TLCZ-3625",
+     "model_url": "https://yumaxa.com/products/on-board-chargers/tlcz-1-4kw/#tlcz-3625",
+     "values": [
+      {
+       "attribute": "battery_pack_rated_voltage",
+       "label": "Battery pack rated voltage",
+       "value_type": "number",
+       "value": 36,
+       "unit_text": "V",
+       "unit_code": "VLT",
+       "status": "listed",
+       "source_url": "http://m.ahtlxny.com/display/604102.html"
+      },
+      {
+       "attribute": "max_output_voltage",
+       "label": "Maximum output voltage",
+       "value_type": "number",
+       "value": 50,
+       "unit_text": "V",
+       "unit_code": "VLT",
+       "status": "listed",
+       "source_url": "http://m.ahtlxny.com/display/604102.html"
+      },
+      {
+       "attribute": "max_output_current",
+       "label": "Maximum output current",
+       "value_type": "number",
+       "value": 25,
+       "unit_text": "A",
+       "unit_code": "AMP",
+       "status": "listed",
+       "source_url": "http://m.ahtlxny.com/display/604102.html"
+      }
+     ],
+     "withheld_fields": [],
+     "value_scope": "printed_model_row",
+     "assignment_note": "",
+     "source_url": "http://m.ahtlxny.com/display/604102.html"
+    },
+    {
+     "model_row_id": "tlcz-1-4kw--tlcz-4825",
+     "model_codes": [
+      "TLCZ-4825",
+      "TLCZ-4820"
+     ],
+     "model_label": "TLCZ-4825/4820",
+     "model_url": "https://yumaxa.com/products/on-board-chargers/tlcz-1-4kw/#tlcz-4825",
+     "values": [
+      {
+       "attribute": "battery_pack_rated_voltage",
+       "label": "Battery pack rated voltage",
+       "value_type": "number",
+       "value": 48,
+       "unit_text": "V",
+       "unit_code": "VLT",
+       "status": "listed",
+       "source_url": "http://m.ahtlxny.com/display/604102.html"
+      },
+      {
+       "attribute": "max_output_voltage",
+       "label": "Maximum output voltage",
+       "value_type": "number",
+       "value": 68,
+       "unit_text": "V",
+       "unit_code": "VLT",
+       "status": "listed",
+       "source_url": "http://m.ahtlxny.com/display/604102.html"
+      },
+      {
+       "attribute": "max_output_current",
+       "label": "Maximum output current",
+       "value_type": "number",
+       "value": 25,
+       "unit_text": "A",
+       "unit_code": "AMP",
+       "status": "listed",
+       "source_url": "http://m.ahtlxny.com/display/604102.html"
+      }
+     ],
+     "withheld_fields": [],
+     "value_scope": "printed_model_row",
+     "assignment_note": "The two codes are printed together on one row and share its values; the manufacturer's website does not say which current belongs to which code.",
+     "source_url": "http://m.ahtlxny.com/display/604102.html"
+    },
+    {
+     "model_row_id": "tlcz-1-4kw--tlcz-6015",
+     "model_codes": [
+      "TLCZ-6015",
+      "TLCZ-6020"
+     ],
+     "model_label": "TLCZ-6015/6020",
+     "model_url": "https://yumaxa.com/products/on-board-chargers/tlcz-1-4kw/#tlcz-6015",
+     "values": [
+      {
+       "attribute": "battery_pack_rated_voltage",
+       "label": "Battery pack rated voltage",
+       "value_type": "number",
+       "value": 60,
+       "unit_text": "V",
+       "unit_code": "VLT",
+       "status": "listed",
+       "source_url": "http://m.ahtlxny.com/display/604102.html"
+      },
+      {
+       "attribute": "max_output_voltage",
+       "label": "Maximum output voltage",
+       "value_type": "number",
+       "value": 83,
+       "unit_text": "V",
+       "unit_code": "VLT",
+       "status": "listed",
+       "source_url": "http://m.ahtlxny.com/display/604102.html"
+      },
+      {
+       "attribute": "max_output_current",
+       "label": "Maximum output current",
+       "value_type": "number",
+       "value": 20,
+       "unit_text": "A",
+       "unit_code": "AMP",
+       "status": "listed",
+       "source_url": "http://m.ahtlxny.com/display/604102.html"
+      }
+     ],
+     "withheld_fields": [],
+     "value_scope": "printed_model_row",
+     "assignment_note": "The two codes are printed together on one row and share its values; the manufacturer's website does not say which current belongs to which code.",
+     "source_url": "http://m.ahtlxny.com/display/604102.html"
+    },
+    {
+     "model_row_id": "tlcz-1-4kw--tlcz-7215",
+     "model_codes": [
+      "TLCZ-7215",
+      "TLCZ-7218"
+     ],
+     "model_label": "TLCZ-7215/7218",
+     "model_url": "https://yumaxa.com/products/on-board-chargers/tlcz-1-4kw/#tlcz-7215",
+     "values": [
+      {
+       "attribute": "battery_pack_rated_voltage",
+       "label": "Battery pack rated voltage",
+       "value_type": "number",
+       "value": 72,
+       "unit_text": "V",
+       "unit_code": "VLT",
+       "status": "listed",
+       "source_url": "http://m.ahtlxny.com/display/604102.html"
+      },
+      {
+       "attribute": "max_output_voltage",
+       "label": "Maximum output voltage",
+       "value_type": "number",
+       "value": 100,
+       "unit_text": "V",
+       "unit_code": "VLT",
+       "status": "listed",
+       "source_url": "http://m.ahtlxny.com/display/604102.html"
+      },
+      {
+       "attribute": "max_output_current",
+       "label": "Maximum output current",
+       "value_type": "number",
+       "value": 18,
+       "unit_text": "A",
+       "unit_code": "AMP",
+       "status": "listed",
+       "source_url": "http://m.ahtlxny.com/display/604102.html"
+      }
+     ],
+     "withheld_fields": [],
+     "value_scope": "printed_model_row",
+     "assignment_note": "The two codes are printed together on one row and share its values; the manufacturer's website does not say which current belongs to which code.",
+     "source_url": "http://m.ahtlxny.com/display/604102.html"
+    }
+   ]
+  },
+  {
+   "slug": "tlcz-2-2kw",
+   "name": "TLCZ-2.2KW",
+   "series_label_kw": 2.2,
+   "series_label_note": "Series name label only; not a rated output power.",
+   "series_url": "https://yumaxa.com/products/on-board-chargers/tlcz-2-2kw/",
+   "housing_variants": [
+    {
+     "name": "TLCZ-2.2KW",
+     "note": "shown without a carrying handle",
+     "source_url": "http://m.ahtlxny.com/display/604106.html"
+    },
+    {
+     "name": "TLCZ-2.2KW(BX)",
+     "note": "shown with a carrying handle",
+     "source_url": "http://m.ahtlxny.com/display/604116.html"
+    }
+   ],
+   "source_urls": [
+    "http://m.ahtlxny.com/display/604106.html",
+    "http://m.en.ahtlxny.com/display/615249.html",
+    "http://m.ahtlxny.com/display/604116.html",
+    "http://m.en.ahtlxny.com/display/615250.html"
+   ],
+   "source_image_urls": [
+    "http://ahtlxny.com/u/1951f0a3-efe0-4fe8-b01f-7ad9c83f0477/image/6385639765540189058351.png",
+    "http://en.ahtlxny.com/u/ac12f24e-061d-4e85-803f-9a2fe6b9a1c7/image/638578445890433840726.png"
+   ],
+   "specs": [
+    {
+     "attribute": "power_factor",
+     "label": "Power factor",
+     "value_type": "number",
+     "value": 0.99,
+     "min_value": null,
+     "max_value": null,
+     "comparator": "≥",
+     "unit_text": "",
+     "unit_code": "",
+     "display": "≥0.99",
+     "status": "listed",
+     "source_url": "http://m.ahtlxny.com/display/604106.html"
+    },
+    {
+     "attribute": "efficiency",
+     "label": "Efficiency",
+     "value_type": "number",
+     "value": 0.93,
+     "min_value": null,
+     "max_value": null,
+     "comparator": "≥",
+     "unit_text": "",
+     "unit_code": "",
+     "display": "≥0.93",
+     "status": "listed",
+     "source_url": "http://m.ahtlxny.com/display/604106.html"
+    },
+    {
+     "attribute": "protection_level",
+     "label": "Protection level",
+     "value_type": "text",
+     "value": "IP67",
+     "min_value": null,
+     "max_value": null,
+     "comparator": "",
+     "unit_text": "",
+     "unit_code": "",
+     "display": "IP67",
+     "status": "listed",
+     "source_url": "http://m.ahtlxny.com/display/604106.html"
+    },
+    {
+     "attribute": "net_weight",
+     "label": "Net weight",
+     "value_type": "number",
+     "value": 3.5,
+     "min_value": null,
+     "max_value": null,
+     "comparator": "",
+     "unit_text": "kg",
+     "unit_code": "KGM",
+     "display": "3.5 kg",
+     "status": "conflict",
+     "status_note": "Value from the manufacturer's Chinese product page; its English page prints a different value.",
+     "source_url": "http://m.ahtlxny.com/display/604106.html"
+    },
+    {
+     "attribute": "working_temperature",
+     "label": "Working temperature",
+     "value_type": "range",
+     "value": null,
+     "min_value": -30,
+     "max_value": 65,
+     "comparator": "",
+     "unit_text": "°C",
+     "unit_code": "CEL",
+     "display": "−30–65 °C",
+     "status": "listed",
+     "source_url": "http://m.ahtlxny.com/display/604106.html"
+    },
+    {
+     "attribute": "storage_temperature",
+     "label": "Storage temperature",
+     "value_type": "range",
+     "value": null,
+     "min_value": -40,
+     "max_value": 95,
+     "comparator": "",
+     "unit_text": "°C",
+     "unit_code": "CEL",
+     "display": "−40–95 °C",
+     "status": "listed",
+     "source_url": "http://m.ahtlxny.com/display/604106.html"
+    }
+   ],
+   "withheld_specs": [
+    {
+     "attribute": "ac_input_voltage",
+     "label": "AC input voltage",
+     "reason": "pending_confirmation"
+    },
+    {
+     "attribute": "dimensions",
+     "label": "Dimensions",
+     "reason": "pending_confirmation"
+    }
+   ],
+   "models": [
+    {
+     "model_row_id": "tlcz-2-2kw--tlcz-2440",
+     "model_codes": [
+      "TLCZ-2440",
+      "TLCZ-2450"
+     ],
+     "model_label": "TLCZ-2440/2450",
+     "model_url": "https://yumaxa.com/products/on-board-chargers/tlcz-2-2kw/#tlcz-2440",
+     "values": [
+      {
+       "attribute": "battery_pack_rated_voltage",
+       "label": "Battery pack rated voltage",
+       "value_type": "number",
+       "value": 24,
+       "unit_text": "V",
+       "unit_code": "VLT",
+       "status": "listed",
+       "source_url": "http://m.ahtlxny.com/display/604106.html"
+      },
+      {
+       "attribute": "max_output_voltage",
+       "label": "Maximum output voltage",
+       "value_type": "number",
+       "value": 33,
+       "unit_text": "V",
+       "unit_code": "VLT",
+       "status": "listed",
+       "source_url": "http://m.ahtlxny.com/display/604106.html"
+      },
+      {
+       "attribute": "max_output_current",
+       "label": "Maximum output current",
+       "value_type": "number",
+       "value": 50,
+       "unit_text": "A",
+       "unit_code": "AMP",
+       "status": "listed",
+       "source_url": "http://m.ahtlxny.com/display/604106.html"
+      }
+     ],
+     "withheld_fields": [],
+     "value_scope": "printed_model_row",
+     "assignment_note": "The two codes are printed together on one row and share its values; the manufacturer's website does not say which current belongs to which code.",
+     "source_url": "http://m.ahtlxny.com/display/604106.html"
+    },
+    {
+     "model_row_id": "tlcz-2-2kw--tlcz-3635",
+     "model_codes": [
+      "TLCZ-3635",
+      "TLCZ-3630"
+     ],
+     "model_label": "TLCZ-3635/3630",
+     "model_url": "https://yumaxa.com/products/on-board-chargers/tlcz-2-2kw/#tlcz-3635",
+     "values": [
+      {
+       "attribute": "battery_pack_rated_voltage",
+       "label": "Battery pack rated voltage",
+       "value_type": "number",
+       "value": 36,
+       "unit_text": "V",
+       "unit_code": "VLT",
+       "status": "listed",
+       "source_url": "http://m.ahtlxny.com/display/604106.html"
+      },
+      {
+       "attribute": "max_output_voltage",
+       "label": "Maximum output voltage",
+       "value_type": "number",
+       "value": 50,
+       "unit_text": "V",
+       "unit_code": "VLT",
+       "status": "listed",
+       "source_url": "http://m.ahtlxny.com/display/604106.html"
+      },
+      {
+       "attribute": "max_output_current",
+       "label": "Maximum output current",
+       "value_type": "number",
+       "value": 35,
+       "unit_text": "A",
+       "unit_code": "AMP",
+       "status": "listed",
+       "source_url": "http://m.ahtlxny.com/display/604106.html"
+      }
+     ],
+     "withheld_fields": [],
+     "value_scope": "printed_model_row",
+     "assignment_note": "The two codes are printed together on one row and share its values; the manufacturer's website does not say which current belongs to which code.",
+     "source_url": "http://m.ahtlxny.com/display/604106.html"
+    },
+    {
+     "model_row_id": "tlcz-2-2kw--tlcz-4835",
+     "model_codes": [
+      "TLCZ-4835",
+      "TLCZ-4830"
+     ],
+     "model_label": "TLCZ-4835/4830",
+     "model_url": "https://yumaxa.com/products/on-board-chargers/tlcz-2-2kw/#tlcz-4835",
+     "values": [
+      {
+       "attribute": "battery_pack_rated_voltage",
+       "label": "Battery pack rated voltage",
+       "value_type": "number",
+       "value": 48,
+       "unit_text": "V",
+       "unit_code": "VLT",
+       "status": "listed",
+       "source_url": "http://m.ahtlxny.com/display/604106.html"
+      },
+      {
+       "attribute": "max_output_voltage",
+       "label": "Maximum output voltage",
+       "value_type": "number",
+       "value": 68,
+       "unit_text": "V",
+       "unit_code": "VLT",
+       "status": "listed",
+       "source_url": "http://m.ahtlxny.com/display/604106.html"
+      },
+      {
+       "attribute": "max_output_current",
+       "label": "Maximum output current",
+       "value_type": "number",
+       "value": 35,
+       "unit_text": "A",
+       "unit_code": "AMP",
+       "status": "listed",
+       "source_url": "http://m.ahtlxny.com/display/604106.html"
+      }
+     ],
+     "withheld_fields": [],
+     "value_scope": "printed_model_row",
+     "assignment_note": "The two codes are printed together on one row and share its values; the manufacturer's website does not say which current belongs to which code.",
+     "source_url": "http://m.ahtlxny.com/display/604106.html"
+    },
+    {
+     "model_row_id": "tlcz-2-2kw--tlcz-6030",
+     "model_codes": [
+      "TLCZ-6030",
+      "TLCZ-6025"
+     ],
+     "model_label": "TLCZ-6030/6025",
+     "model_url": "https://yumaxa.com/products/on-board-chargers/tlcz-2-2kw/#tlcz-6030",
+     "values": [
+      {
+       "attribute": "battery_pack_rated_voltage",
+       "label": "Battery pack rated voltage",
+       "value_type": "number",
+       "value": 60,
+       "unit_text": "V",
+       "unit_code": "VLT",
+       "status": "listed",
+       "source_url": "http://m.ahtlxny.com/display/604106.html"
+      },
+      {
+       "attribute": "max_output_voltage",
+       "label": "Maximum output voltage",
+       "value_type": "number",
+       "value": 83,
+       "unit_text": "V",
+       "unit_code": "VLT",
+       "status": "listed",
+       "source_url": "http://m.ahtlxny.com/display/604106.html"
+      },
+      {
+       "attribute": "max_output_current",
+       "label": "Maximum output current",
+       "value_type": "number",
+       "value": 30,
+       "unit_text": "A",
+       "unit_code": "AMP",
+       "status": "listed",
+       "source_url": "http://m.ahtlxny.com/display/604106.html"
+      }
+     ],
+     "withheld_fields": [],
+     "value_scope": "printed_model_row",
+     "assignment_note": "The two codes are printed together on one row and share its values; the manufacturer's website does not say which current belongs to which code.",
+     "source_url": "http://m.ahtlxny.com/display/604106.html"
+    },
+    {
+     "model_row_id": "tlcz-2-2kw--tlcz-7225",
+     "model_codes": [
+      "TLCZ-7225",
+      "TLCZ-7220"
+     ],
+     "model_label": "TLCZ-7225/7220",
+     "model_url": "https://yumaxa.com/products/on-board-chargers/tlcz-2-2kw/#tlcz-7225",
+     "values": [
+      {
+       "attribute": "battery_pack_rated_voltage",
+       "label": "Battery pack rated voltage",
+       "value_type": "number",
+       "value": 72,
+       "unit_text": "V",
+       "unit_code": "VLT",
+       "status": "listed",
+       "source_url": "http://m.ahtlxny.com/display/604106.html"
+      },
+      {
+       "attribute": "max_output_voltage",
+       "label": "Maximum output voltage",
+       "value_type": "number",
+       "value": 100,
+       "unit_text": "V",
+       "unit_code": "VLT",
+       "status": "listed",
+       "source_url": "http://m.ahtlxny.com/display/604106.html"
+      },
+      {
+       "attribute": "max_output_current",
+       "label": "Maximum output current",
+       "value_type": "number",
+       "value": 25,
+       "unit_text": "A",
+       "unit_code": "AMP",
+       "status": "listed",
+       "source_url": "http://m.ahtlxny.com/display/604106.html"
+      }
+     ],
+     "withheld_fields": [],
+     "value_scope": "printed_model_row",
+     "assignment_note": "The two codes are printed together on one row and share its values; the manufacturer's website does not say which current belongs to which code.",
+     "source_url": "http://m.ahtlxny.com/display/604106.html"
+    }
+   ]
+  },
+  {
+   "slug": "tlcz-3-3kw",
+   "name": "TLCZ-3.3KW",
+   "series_label_kw": 3.3,
+   "series_label_note": "Series name label only; not a rated output power.",
+   "series_url": "https://yumaxa.com/products/on-board-chargers/tlcz-3-3kw/",
+   "housing_variants": [
+    {
+     "name": "TLCZ-3.3KW",
+     "note": "",
+     "source_url": "http://m.ahtlxny.com/display/604112.html"
+    }
+   ],
+   "source_urls": [
+    "http://m.ahtlxny.com/display/604112.html",
+    "http://m.en.ahtlxny.com/display/615246.html"
+   ],
+   "source_image_urls": [
+    "http://ahtlxny.com/u/1951f0a3-efe0-4fe8-b01f-7ad9c83f0477/image/6385674642817549126620.png",
+    "http://en.ahtlxny.com/u/ac12f24e-061d-4e85-803f-9a2fe6b9a1c7/image/6385784462796524774881.png"
+   ],
+   "specs": [
+    {
+     "attribute": "ac_input_voltage",
+     "label": "AC input voltage",
+     "value_type": "range",
+     "value": null,
+     "min_value": 90,
+     "max_value": 265,
+     "comparator": "",
+     "unit_text": "V",
+     "unit_code": "VLT",
+     "display": "90–265 V",
+     "status": "conflict",
+     "status_note": "Value from the manufacturer's Chinese product page; its English page prints a different value.",
+     "source_url": "http://m.ahtlxny.com/display/604112.html"
+    },
+    {
+     "attribute": "power_factor",
+     "label": "Power factor",
+     "value_type": "number",
+     "value": 0.99,
+     "min_value": null,
+     "max_value": null,
+     "comparator": "≥",
+     "unit_text": "",
+     "unit_code": "",
+     "display": "≥0.99",
+     "status": "listed",
+     "source_url": "http://m.ahtlxny.com/display/604112.html"
+    },
+    {
+     "attribute": "protection_level",
+     "label": "Protection level",
+     "value_type": "text",
+     "value": "IP67",
+     "min_value": null,
+     "max_value": null,
+     "comparator": "",
+     "unit_text": "",
+     "unit_code": "",
+     "display": "IP67",
+     "status": "listed",
+     "source_url": "http://m.ahtlxny.com/display/604112.html"
+    },
+    {
+     "attribute": "net_weight",
+     "label": "Net weight",
+     "value_type": "number",
+     "value": 7.5,
+     "min_value": null,
+     "max_value": null,
+     "comparator": "",
+     "unit_text": "kg",
+     "unit_code": "KGM",
+     "display": "7.5 kg",
+     "status": "listed",
+     "source_url": "http://m.ahtlxny.com/display/604112.html"
+    },
+    {
+     "attribute": "working_temperature",
+     "label": "Working temperature",
+     "value_type": "range",
+     "value": null,
+     "min_value": -40,
+     "max_value": 65,
+     "comparator": "",
+     "unit_text": "°C",
+     "unit_code": "CEL",
+     "display": "−40–65 °C",
+     "status": "conflict",
+     "status_note": "Value from the manufacturer's Chinese product page; its English page prints a different value.",
+     "source_url": "http://m.ahtlxny.com/display/604112.html"
+    },
+    {
+     "attribute": "storage_temperature",
+     "label": "Storage temperature",
+     "value_type": "range",
+     "value": null,
+     "min_value": -40,
+     "max_value": 95,
+     "comparator": "",
+     "unit_text": "°C",
+     "unit_code": "CEL",
+     "display": "−40–95 °C",
+     "status": "listed",
+     "source_url": "http://m.ahtlxny.com/display/604112.html"
+    },
+    {
+     "attribute": "noise",
+     "label": "Noise",
+     "value_type": "number",
+     "value": 60,
+     "min_value": null,
+     "max_value": null,
+     "comparator": "≤",
+     "unit_text": "dB",
+     "unit_code": "",
+     "display": "≤60 dB",
+     "status": "listed",
+     "source_url": "http://m.ahtlxny.com/display/604112.html"
+    }
+   ],
+   "withheld_specs": [
+    {
+     "attribute": "efficiency",
+     "label": "Efficiency",
+     "reason": "pending_confirmation"
+    },
+    {
+     "attribute": "dimensions",
+     "label": "Dimensions",
+     "reason": "pending_confirmation"
+    }
+   ],
+   "models": [
+    {
+     "model_row_id": "tlcz-3-3kw--tlcz-36008",
+     "model_codes": [
+      "TLCZ-36008"
+     ],
+     "model_label": "TLCZ-36008",
+     "model_url": "https://yumaxa.com/products/on-board-chargers/tlcz-3-3kw/#tlcz-36008",
+     "values": [
+      {
+       "attribute": "battery_pack_rated_voltage",
+       "label": "Battery pack rated voltage",
+       "value_type": "number",
+       "value": 360,
+       "unit_text": "V",
+       "unit_code": "VLT",
+       "status": "listed",
+       "source_url": "http://m.ahtlxny.com/display/604112.html"
+      }
+     ],
+     "withheld_fields": [
+      "max_output_voltage",
+      "max_output_current"
+     ],
+     "value_scope": "printed_model_row",
+     "assignment_note": "",
+     "source_url": "http://m.ahtlxny.com/display/604112.html"
+    },
+    {
+     "model_row_id": "tlcz-3-3kw--tlcz-36010",
+     "model_codes": [
+      "TLCZ-36010"
+     ],
+     "model_label": "TLCZ-36010",
+     "model_url": "https://yumaxa.com/products/on-board-chargers/tlcz-3-3kw/#tlcz-36010",
+     "values": [
+      {
+       "attribute": "battery_pack_rated_voltage",
+       "label": "Battery pack rated voltage",
+       "value_type": "number",
+       "value": 360,
+       "unit_text": "V",
+       "unit_code": "VLT",
+       "status": "listed",
+       "source_url": "http://m.ahtlxny.com/display/604112.html"
+      },
+      {
+       "attribute": "max_output_voltage",
+       "label": "Maximum output voltage",
+       "value_type": "number",
+       "value": 500,
+       "unit_text": "V",
+       "unit_code": "VLT",
+       "status": "listed",
+       "source_url": "http://m.ahtlxny.com/display/604112.html"
+      },
+      {
+       "attribute": "max_output_current",
+       "label": "Maximum output current",
+       "value_type": "number",
+       "value": 10,
+       "unit_text": "A",
+       "unit_code": "AMP",
+       "status": "listed",
+       "source_url": "http://m.ahtlxny.com/display/604112.html"
+      }
+     ],
+     "withheld_fields": [],
+     "value_scope": "printed_model_row",
+     "assignment_note": "",
+     "source_url": "http://m.ahtlxny.com/display/604112.html"
+    },
+    {
+     "model_row_id": "tlcz-3-3kw--tlcz-14422",
+     "model_codes": [
+      "TLCZ-14422"
+     ],
+     "model_label": "TLCZ-14422",
+     "model_url": "https://yumaxa.com/products/on-board-chargers/tlcz-3-3kw/#tlcz-14422",
+     "values": [
+      {
+       "attribute": "battery_pack_rated_voltage",
+       "label": "Battery pack rated voltage",
+       "value_type": "number",
+       "value": 144,
+       "unit_text": "V",
+       "unit_code": "VLT",
+       "status": "listed",
+       "source_url": "http://m.ahtlxny.com/display/604112.html"
+      },
+      {
+       "attribute": "max_output_voltage",
+       "label": "Maximum output voltage",
+       "value_type": "number",
+       "value": 190,
+       "unit_text": "V",
+       "unit_code": "VLT",
+       "status": "listed",
+       "source_url": "http://m.ahtlxny.com/display/604112.html"
+      },
+      {
+       "attribute": "max_output_current",
+       "label": "Maximum output current",
+       "value_type": "number",
+       "value": 22,
+       "unit_text": "A",
+       "unit_code": "AMP",
+       "status": "listed",
+       "source_url": "http://m.ahtlxny.com/display/604112.html"
+      }
+     ],
+     "withheld_fields": [],
+     "value_scope": "printed_model_row",
+     "assignment_note": "",
+     "source_url": "http://m.ahtlxny.com/display/604112.html"
+    },
+    {
+     "model_row_id": "tlcz-3-3kw--tlcz-10830",
+     "model_codes": [
+      "TLCZ-10830"
+     ],
+     "model_label": "TLCZ-10830",
+     "model_url": "https://yumaxa.com/products/on-board-chargers/tlcz-3-3kw/#tlcz-10830",
+     "values": [
+      {
+       "attribute": "battery_pack_rated_voltage",
+       "label": "Battery pack rated voltage",
+       "value_type": "number",
+       "value": 108,
+       "unit_text": "V",
+       "unit_code": "VLT",
+       "status": "listed",
+       "source_url": "http://m.ahtlxny.com/display/604112.html"
+      },
+      {
+       "attribute": "max_output_voltage",
+       "label": "Maximum output voltage",
+       "value_type": "number",
+       "value": 140,
+       "unit_text": "V",
+       "unit_code": "VLT",
+       "status": "listed",
+       "source_url": "http://m.ahtlxny.com/display/604112.html"
+      },
+      {
+       "attribute": "max_output_current",
+       "label": "Maximum output current",
+       "value_type": "number",
+       "value": 30,
+       "unit_text": "A",
+       "unit_code": "AMP",
+       "status": "listed",
+       "source_url": "http://m.ahtlxny.com/display/604112.html"
+      }
+     ],
+     "withheld_fields": [],
+     "value_scope": "printed_model_row",
+     "assignment_note": "",
+     "source_url": "http://m.ahtlxny.com/display/604112.html"
+    },
+    {
+     "model_row_id": "tlcz-3-3kw--tlcz-7245",
+     "model_codes": [
+      "TLCZ-7245"
+     ],
+     "model_label": "TLCZ-7245",
+     "model_url": "https://yumaxa.com/products/on-board-chargers/tlcz-3-3kw/#tlcz-7245",
+     "values": [
+      {
+       "attribute": "battery_pack_rated_voltage",
+       "label": "Battery pack rated voltage",
+       "value_type": "number",
+       "value": 72,
+       "unit_text": "V",
+       "unit_code": "VLT",
+       "status": "listed",
+       "source_url": "http://m.ahtlxny.com/display/604112.html"
+      },
+      {
+       "attribute": "max_output_voltage",
+       "label": "Maximum output voltage",
+       "value_type": "number",
+       "value": 95,
+       "unit_text": "V",
+       "unit_code": "VLT",
+       "status": "listed",
+       "source_url": "http://m.ahtlxny.com/display/604112.html"
+      },
+      {
+       "attribute": "max_output_current",
+       "label": "Maximum output current",
+       "value_type": "number",
+       "value": 45,
+       "unit_text": "A",
+       "unit_code": "AMP",
+       "status": "listed",
+       "source_url": "http://m.ahtlxny.com/display/604112.html"
+      }
+     ],
+     "withheld_fields": [],
+     "value_scope": "printed_model_row",
+     "assignment_note": "",
+     "source_url": "http://m.ahtlxny.com/display/604112.html"
+    },
+    {
+     "model_row_id": "tlcz-3-3kw--tlcz-4860",
+     "model_codes": [
+      "TLCZ-4860"
+     ],
+     "model_label": "TLCZ-4860",
+     "model_url": "https://yumaxa.com/products/on-board-chargers/tlcz-3-3kw/#tlcz-4860",
+     "values": [
+      {
+       "attribute": "battery_pack_rated_voltage",
+       "label": "Battery pack rated voltage",
+       "value_type": "number",
+       "value": 48,
+       "unit_text": "V",
+       "unit_code": "VLT",
+       "status": "listed",
+       "source_url": "http://m.ahtlxny.com/display/604112.html"
+      },
+      {
+       "attribute": "max_output_voltage",
+       "label": "Maximum output voltage",
+       "value_type": "number",
+       "value": 68,
+       "unit_text": "V",
+       "unit_code": "VLT",
+       "status": "listed",
+       "source_url": "http://m.ahtlxny.com/display/604112.html"
+      },
+      {
+       "attribute": "max_output_current",
+       "label": "Maximum output current",
+       "value_type": "number",
+       "value": 60,
+       "unit_text": "A",
+       "unit_code": "AMP",
+       "status": "listed",
+       "source_url": "http://m.ahtlxny.com/display/604112.html"
+      }
+     ],
+     "withheld_fields": [],
+     "value_scope": "printed_model_row",
+     "assignment_note": "",
+     "source_url": "http://m.ahtlxny.com/display/604112.html"
+    },
+    {
+     "model_row_id": "tlcz-3-3kw--tlcz-24100",
+     "model_codes": [
+      "TLCZ-24100"
+     ],
+     "model_label": "TLCZ-24100",
+     "model_url": "https://yumaxa.com/products/on-board-chargers/tlcz-3-3kw/#tlcz-24100",
+     "values": [
+      {
+       "attribute": "battery_pack_rated_voltage",
+       "label": "Battery pack rated voltage",
+       "value_type": "number",
+       "value": 24,
+       "unit_text": "V",
+       "unit_code": "VLT",
+       "status": "listed",
+       "source_url": "http://m.ahtlxny.com/display/604112.html"
+      },
+      {
+       "attribute": "max_output_voltage",
+       "label": "Maximum output voltage",
+       "value_type": "number",
+       "value": 36,
+       "unit_text": "V",
+       "unit_code": "VLT",
+       "status": "listed",
+       "source_url": "http://m.ahtlxny.com/display/604112.html"
+      },
+      {
+       "attribute": "max_output_current",
+       "label": "Maximum output current",
+       "value_type": "number",
+       "value": 100,
+       "unit_text": "A",
+       "unit_code": "AMP",
+       "status": "listed",
+       "source_url": "http://m.ahtlxny.com/display/604112.html"
+      }
+     ],
+     "withheld_fields": [],
+     "value_scope": "printed_model_row",
+     "assignment_note": "",
+     "source_url": "http://m.ahtlxny.com/display/604112.html"
+    }
+   ]
+  },
+  {
+   "slug": "tlcz-6-6kw",
+   "name": "TLCZ-6.6KW",
+   "series_label_kw": 6.6,
+   "series_label_note": "Series name label only; not a rated output power.",
+   "series_url": "https://yumaxa.com/products/on-board-chargers/tlcz-6-6kw/",
+   "housing_variants": [
+    {
+     "name": "TLCZ-6.6KW",
+     "note": "",
+     "source_url": "http://m.ahtlxny.com/display/605389.html"
+    }
+   ],
+   "source_urls": [
+    "http://m.ahtlxny.com/display/605389.html",
+    "http://m.en.ahtlxny.com/display/615256.html"
+   ],
+   "source_image_urls": [
+    "http://ahtlxny.com/u/1951f0a3-efe0-4fe8-b01f-7ad9c83f0477/image/6385674671178485218332.png",
+    "http://en.ahtlxny.com/u/ac12f24e-061d-4e85-803f-9a2fe6b9a1c7/image/6385784466588714407257.png"
+   ],
+   "specs": [
+    {
+     "attribute": "ac_input_voltage",
+     "label": "AC input voltage",
+     "value_type": "range",
+     "value": null,
+     "min_value": 90,
+     "max_value": 265,
+     "comparator": "",
+     "unit_text": "V",
+     "unit_code": "VLT",
+     "display": "90–265 V",
+     "status": "conflict",
+     "status_note": "Value from the manufacturer's Chinese product page; its English page prints a different value.",
+     "source_url": "http://m.ahtlxny.com/display/605389.html"
+    },
+    {
+     "attribute": "power_factor",
+     "label": "Power factor",
+     "value_type": "number",
+     "value": 0.99,
+     "min_value": null,
+     "max_value": null,
+     "comparator": "≥",
+     "unit_text": "",
+     "unit_code": "",
+     "display": "≥0.99",
+     "status": "listed",
+     "source_url": "http://m.ahtlxny.com/display/605389.html"
+    },
+    {
+     "attribute": "protection_level",
+     "label": "Protection level",
+     "value_type": "text",
+     "value": "IP67",
+     "min_value": null,
+     "max_value": null,
+     "comparator": "",
+     "unit_text": "",
+     "unit_code": "",
+     "display": "IP67",
+     "status": "listed",
+     "source_url": "http://m.ahtlxny.com/display/605389.html"
+    },
+    {
+     "attribute": "working_temperature",
+     "label": "Working temperature",
+     "value_type": "range",
+     "value": null,
+     "min_value": -40,
+     "max_value": 65,
+     "comparator": "",
+     "unit_text": "°C",
+     "unit_code": "CEL",
+     "display": "−40–65 °C",
+     "status": "conflict",
+     "status_note": "Value from the manufacturer's Chinese product page; its English page prints a different value.",
+     "source_url": "http://m.ahtlxny.com/display/605389.html"
+    },
+    {
+     "attribute": "storage_temperature",
+     "label": "Storage temperature",
+     "value_type": "range",
+     "value": null,
+     "min_value": -40,
+     "max_value": 95,
+     "comparator": "",
+     "unit_text": "°C",
+     "unit_code": "CEL",
+     "display": "−40–95 °C",
+     "status": "listed",
+     "source_url": "http://m.ahtlxny.com/display/605389.html"
+    },
+    {
+     "attribute": "noise",
+     "label": "Noise",
+     "value_type": "number",
+     "value": 60,
+     "min_value": null,
+     "max_value": null,
+     "comparator": "≤",
+     "unit_text": "dB",
+     "unit_code": "",
+     "display": "≤60 dB",
+     "status": "listed",
+     "source_url": "http://m.ahtlxny.com/display/605389.html"
+    }
+   ],
+   "withheld_specs": [
+    {
+     "attribute": "efficiency",
+     "label": "Efficiency",
+     "reason": "pending_confirmation"
+    },
+    {
+     "attribute": "net_weight",
+     "label": "Net weight",
+     "reason": "pending_confirmation"
+    },
+    {
+     "attribute": "dimensions",
+     "label": "Dimensions",
+     "reason": "pending_confirmation"
+    }
+   ],
+   "models": [
+    {
+     "model_row_id": "tlcz-6-6kw--tlcz-72009",
+     "model_codes": [
+      "TLCZ-72009"
+     ],
+     "model_label": "TLCZ-72009",
+     "model_url": "https://yumaxa.com/products/on-board-chargers/tlcz-6-6kw/#tlcz-72009",
+     "values": [
+      {
+       "attribute": "battery_pack_rated_voltage",
+       "label": "Battery pack rated voltage",
+       "value_type": "number",
+       "value": 720,
+       "unit_text": "V",
+       "unit_code": "VLT",
+       "status": "listed",
+       "source_url": "http://m.ahtlxny.com/display/605389.html"
+      },
+      {
+       "attribute": "max_output_voltage",
+       "label": "Maximum output voltage",
+       "value_type": "number",
+       "value": 850,
+       "unit_text": "V",
+       "unit_code": "VLT",
+       "status": "listed",
+       "source_url": "http://m.ahtlxny.com/display/605389.html"
+      },
+      {
+       "attribute": "max_output_current",
+       "label": "Maximum output current",
+       "value_type": "number",
+       "value": 9,
+       "unit_text": "A",
+       "unit_code": "AMP",
+       "status": "listed",
+       "source_url": "http://m.ahtlxny.com/display/605389.html"
+      }
+     ],
+     "withheld_fields": [],
+     "value_scope": "printed_model_row",
+     "assignment_note": "",
+     "source_url": "http://m.ahtlxny.com/display/605389.html"
+    },
+    {
+     "model_row_id": "tlcz-6-6kw--tlcz-54012",
+     "model_codes": [
+      "TLCZ-54012"
+     ],
+     "model_label": "TLCZ-54012",
+     "model_url": "https://yumaxa.com/products/on-board-chargers/tlcz-6-6kw/#tlcz-54012",
+     "values": [
+      {
+       "attribute": "battery_pack_rated_voltage",
+       "label": "Battery pack rated voltage",
+       "value_type": "number",
+       "value": 540,
+       "unit_text": "V",
+       "unit_code": "VLT",
+       "status": "listed",
+       "source_url": "http://m.ahtlxny.com/display/605389.html"
+      },
+      {
+       "attribute": "max_output_voltage",
+       "label": "Maximum output voltage",
+       "value_type": "number",
+       "value": 720,
+       "unit_text": "V",
+       "unit_code": "VLT",
+       "status": "listed",
+       "source_url": "http://m.ahtlxny.com/display/605389.html"
+      },
+      {
+       "attribute": "max_output_current",
+       "label": "Maximum output current",
+       "value_type": "number",
+       "value": 12,
+       "unit_text": "A",
+       "unit_code": "AMP",
+       "status": "listed",
+       "source_url": "http://m.ahtlxny.com/display/605389.html"
+      }
+     ],
+     "withheld_fields": [],
+     "value_scope": "printed_model_row",
+     "assignment_note": "",
+     "source_url": "http://m.ahtlxny.com/display/605389.html"
+    },
+    {
+     "model_row_id": "tlcz-6-6kw--tlcz-36018",
+     "model_codes": [
+      "TLCZ-36018"
+     ],
+     "model_label": "TLCZ-36018",
+     "model_url": "https://yumaxa.com/products/on-board-chargers/tlcz-6-6kw/#tlcz-36018",
+     "values": [
+      {
+       "attribute": "battery_pack_rated_voltage",
+       "label": "Battery pack rated voltage",
+       "value_type": "number",
+       "value": 360,
+       "unit_text": "V",
+       "unit_code": "VLT",
+       "status": "listed",
+       "source_url": "http://m.ahtlxny.com/display/605389.html"
+      },
+      {
+       "attribute": "max_output_voltage",
+       "label": "Maximum output voltage",
+       "value_type": "number",
+       "value": 500,
+       "unit_text": "V",
+       "unit_code": "VLT",
+       "status": "listed",
+       "source_url": "http://m.ahtlxny.com/display/605389.html"
+      },
+      {
+       "attribute": "max_output_current",
+       "label": "Maximum output current",
+       "value_type": "number",
+       "value": 18,
+       "unit_text": "A",
+       "unit_code": "AMP",
+       "status": "listed",
+       "source_url": "http://m.ahtlxny.com/display/605389.html"
+      }
+     ],
+     "withheld_fields": [],
+     "value_scope": "printed_model_row",
+     "assignment_note": "",
+     "source_url": "http://m.ahtlxny.com/display/605389.html"
+    },
+    {
+     "model_row_id": "tlcz-6-6kw--tlcz-14444",
+     "model_codes": [
+      "TLCZ-14444"
+     ],
+     "model_label": "TLCZ-14444",
+     "model_url": "https://yumaxa.com/products/on-board-chargers/tlcz-6-6kw/#tlcz-14444",
+     "values": [
+      {
+       "attribute": "battery_pack_rated_voltage",
+       "label": "Battery pack rated voltage",
+       "value_type": "number",
+       "value": 144,
+       "unit_text": "V",
+       "unit_code": "VLT",
+       "status": "listed",
+       "source_url": "http://m.ahtlxny.com/display/605389.html"
+      },
+      {
+       "attribute": "max_output_voltage",
+       "label": "Maximum output voltage",
+       "value_type": "number",
+       "value": 190,
+       "unit_text": "V",
+       "unit_code": "VLT",
+       "status": "listed",
+       "source_url": "http://m.ahtlxny.com/display/605389.html"
+      },
+      {
+       "attribute": "max_output_current",
+       "label": "Maximum output current",
+       "value_type": "number",
+       "value": 44,
+       "unit_text": "A",
+       "unit_code": "AMP",
+       "status": "listed",
+       "source_url": "http://m.ahtlxny.com/display/605389.html"
+      }
+     ],
+     "withheld_fields": [],
+     "value_scope": "printed_model_row",
+     "assignment_note": "",
+     "source_url": "http://m.ahtlxny.com/display/605389.html"
+    },
+    {
+     "model_row_id": "tlcz-6-6kw--tlcz-10860",
+     "model_codes": [
+      "TLCZ-10860"
+     ],
+     "model_label": "TLCZ-10860",
+     "model_url": "https://yumaxa.com/products/on-board-chargers/tlcz-6-6kw/#tlcz-10860",
+     "values": [
+      {
+       "attribute": "battery_pack_rated_voltage",
+       "label": "Battery pack rated voltage",
+       "value_type": "number",
+       "value": 108,
+       "unit_text": "V",
+       "unit_code": "VLT",
+       "status": "listed",
+       "source_url": "http://m.ahtlxny.com/display/605389.html"
+      },
+      {
+       "attribute": "max_output_voltage",
+       "label": "Maximum output voltage",
+       "value_type": "number",
+       "value": 140,
+       "unit_text": "V",
+       "unit_code": "VLT",
+       "status": "listed",
+       "source_url": "http://m.ahtlxny.com/display/605389.html"
+      },
+      {
+       "attribute": "max_output_current",
+       "label": "Maximum output current",
+       "value_type": "number",
+       "value": 60,
+       "unit_text": "A",
+       "unit_code": "AMP",
+       "status": "listed",
+       "source_url": "http://m.ahtlxny.com/display/605389.html"
+      }
+     ],
+     "withheld_fields": [],
+     "value_scope": "printed_model_row",
+     "assignment_note": "",
+     "source_url": "http://m.ahtlxny.com/display/605389.html"
+    },
+    {
+     "model_row_id": "tlcz-6-6kw--tlcz-8080",
+     "model_codes": [
+      "TLCZ-8080"
+     ],
+     "model_label": "TLCZ-8080",
+     "model_url": "https://yumaxa.com/products/on-board-chargers/tlcz-6-6kw/#tlcz-8080",
+     "values": [
+      {
+       "attribute": "battery_pack_rated_voltage",
+       "label": "Battery pack rated voltage",
+       "value_type": "number",
+       "value": 80,
+       "unit_text": "V",
+       "unit_code": "VLT",
+       "status": "listed",
+       "source_url": "http://m.ahtlxny.com/display/605389.html"
+      },
+      {
+       "attribute": "max_output_voltage",
+       "label": "Maximum output voltage",
+       "value_type": "number",
+       "value": 105,
+       "unit_text": "V",
+       "unit_code": "VLT",
+       "status": "listed",
+       "source_url": "http://m.ahtlxny.com/display/605389.html"
+      },
+      {
+       "attribute": "max_output_current",
+       "label": "Maximum output current",
+       "value_type": "number",
+       "value": 80,
+       "unit_text": "A",
+       "unit_code": "AMP",
+       "status": "listed",
+       "source_url": "http://m.ahtlxny.com/display/605389.html"
+      }
+     ],
+     "withheld_fields": [],
+     "value_scope": "printed_model_row",
+     "assignment_note": "",
+     "source_url": "http://m.ahtlxny.com/display/605389.html"
+    }
+   ]
+  }
+ ]
+}
